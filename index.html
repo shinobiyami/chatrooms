@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Chat :: Home ::</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://localhost/Melazhari/projets/Chat/res/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="http://localhost/Melazhari/projets/Chat/res/css/grid.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="http://localhost/Melazhari/projets/Chat/res/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="http://localhost/Melazhari/projets/Chat/res/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://localhost/Melazhari/projets/Chat/res/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  	<!--Signup-->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+		        <h4 class="modal-title" id="myModalLabel">SignUp or Register</h4>
+		      </div>
+		      <div class="modal-body" style="padding: 10px 20px 0px 20px">
+		      	<div class="row">
+		      		<div class="col-md-5">
+			      		<form id="signup">
+				        	<div class="form-group">
+				        		<label for="exampleInputEmail1">Username</label>
+				        		<input type="text" class="form-control" id="s_user" placeholder="Username">
+				        	</div>
+				        	<div class="form-group">
+				        		<label for="exampleInputEmail1">Password</label>
+				        		<input type="password" class="form-control" id="s_password" placeholder="Password">
+				        	</div>
+				        	<div class="form-group">
+				        		<input type="submit" class="btn btn-primary" value="SignUp">
+				        		<a href="#" class="btn btn-default">SignUp as Guest</a>
+				        	</div>
+				        </form>
+		      		</div>
+		      		<div class="col-md-7">
+		      			<form action="">
+		      				<div class="form-group">
+		      					<label for="">username</label>
+		      					<input type="text" id="r_username" class="form-control">
+		      				</div>
+		      				<div class="form-group">
+		      					<label for="">Password</label>
+		      					<input type="text" id="r_password" class="form-control">
+		      				</div>
+		      				<div class="form-group">
+		      					<input type="submit" value="Register" class="btn btn-primary">
+		      				</div>
+		      			</form>
+		      		</div>
+		        </div>
+		      </div>
+
+		    </div>
+		  </div>
+		</div>
+	<!--/Signup-->
+
+    <div class="container">
+    	<h1 class="page-header">List Rooms</h1>
+		<div class="row rooms">
+			<div class="col-md-3">
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+				    <h3 class="panel-title">Public <span class="badge pull-right">42</span></h3>
+
+				  </div>
+				  <div class="panel-body">
+				    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam molestiae repellendus nobis, suscipit, ratione veniam enim aliquid in numquam eveniet aliquam consequatur repudiandae cum dolores, aut rem esse accusamus laborum?
+				  </div>
+				  <div class="panel-footer"><a href="" class="btn btn-block btn-info"><i class="glyphicon glyphicon-share-alt">&nbsp;</i>Enter</a></div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-primary">
+				  <div class="panel-heading">
+				    <h3 class="panel-title">Programation <span class="badge pull-right">42</span></h3>
+
+				  </div>
+				  <div class="panel-body">
+				    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut sit quia harum consequatur maiores reiciendis soluta tempore repudiandae, facere nam! Laborum quae, et odio itaque inventore dolorem explicabo consectetur, aspernatur?
+				  </div>
+				  <div class="panel-footer"><a href="" class="btn btn-block btn-info"><i class="glyphicon glyphicon-share-alt">&nbsp;</i>Enter</a></div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-primary">
+				  <div class="panel-heading">
+				    <h3 class="panel-title">Programation <span class="badge pull-right">42</span></h3>
+
+				  </div>
+				  <div class="panel-body">
+				    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis minima vero voluptatem porro sunt voluptate alias consequatur itaque ad suscipit, odio provident, cum, maxime ut sed unde illo adipisci magnam!
+				  </div>
+				  <div class="panel-footer"><a href="" class="btn btn-block btn-info"><i class="glyphicon glyphicon-share-alt">&nbsp;</i>Enter</a></div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-primary">
+				  <div class="panel-heading">
+				    <h3 class="panel-title">Programation <span class="badge pull-right">42</span></h3>
+
+				  </div>
+				  <div class="panel-body">
+				    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti et consectetur, voluptate molestiae dolore voluptates laborum ipsa unde autem quis aspernatur quod rerum nihil dicta nemo aut illum consequuntur sed.
+				  </div>
+				  <div class="panel-footer"><a href="" class="btn btn-block btn-info"><i class="glyphicon glyphicon-share-alt">&nbsp;</i>Enter</a></div>
+				</div>
+			</div>
+		</div>
+		<div class="row rooms">
+			<div class="col-md-3">
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+				    <h3 class="panel-title">Public <span class="badge pull-right">42</span></h3>
+
+				  </div>
+				  <div class="panel-body">
+				    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis officiis optio repellat consequuntur enim deleniti aliquid pariatur amet, dolorem soluta vel accusamus. Blanditiis qui, reprehenderit natus earum hic officia neque!
+				  </div>
+				  <div class="panel-footer"><a href="" class="btn btn-block btn-info"><i class="glyphicon glyphicon-share-alt">&nbsp;</i>Enter</a></div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-primary">
+				  <div class="panel-heading">
+				    <h3 class="panel-title">Programation <span class="badge pull-right">42</span></h3>
+
+				  </div>
+				  <div class="panel-body">
+				    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aperiam voluptas maxime optio nemo eligendi odio, asperiores similique alias commodi inventore nostrum, aspernatur! Voluptatem, veniam quia facilis aliquid enim saepe.
+				  </div>
+				  <div class="panel-footer"><a href="" class="btn btn-block btn-info"><i class="glyphicon glyphicon-share-alt">&nbsp;</i>Enter</a></div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-primary">
+				  <div class="panel-heading">
+				    <h3 class="panel-title">Programation <span class="badge pull-right">42</span></h3>
+
+				  </div>
+				  <div class="panel-body">
+				    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque nisi necessitatibus culpa consectetur, eligendi non sit voluptatum, at, facilis, saepe rerum illum. A facere adipisci fugiat, dolorem temporibus magnam doloribus?
+				  </div>
+				  <div class="panel-footer"><a href="" class="btn btn-block btn-info"><i class="glyphicon glyphicon-share-alt">&nbsp;</i>Enter</a></div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-primary">
+				  <div class="panel-heading">
+				    <h3 class="panel-title">Programation <span class="badge pull-right">42</span></h3>
+
+				  </div>
+				  <div class="panel-body">
+				    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ducimus eaque culpa laboriosam adipisci, dolor reprehenderit excepturi dignissimos pariatur, vero minus, explicabo quo saepe! Temporibus dolores consectetur impedit, id laboriosam.
+				  </div>
+				  <div class="panel-footer"><a href="" class="btn btn-block btn-info"><i class="glyphicon glyphicon-share-alt">&nbsp;</i>Enter</a></div>
+				</div>
+			</div>
+		</div>
+		<div class="row rooms">
+			<div class="col-md-3">
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+				    <h3 class="panel-title">Public <span class="badge pull-right">42</span></h3>
+
+				  </div>
+				  <div class="panel-body">
+				    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam optio harum similique aperiam, eius autem atque qui id, deleniti quaerat consectetur totam odit minus voluptas architecto placeat nam quibusdam esse.
+				  </div>
+				  <div class="panel-footer"><a href="" class="btn btn-block btn-info"><i class="glyphicon glyphicon-share-alt">&nbsp;</i>Enter</a></div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-primary">
+				  <div class="panel-heading">
+				    <h3 class="panel-title">Programation <span class="badge pull-right">42</span></h3>
+
+				  </div>
+				  <div class="panel-body">
+				    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi harum optio vero incidunt dolorum explicabo, quam, non commodi est exercitationem fuga maiores soluta quia. Vero ut, unde inventore soluta porro.
+				  </div>
+				  <div class="panel-footer"><a href="" class="btn btn-block btn-info"><i class="glyphicon glyphicon-share-alt">&nbsp;</i>Enter</a></div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-primary">
+				  <div class="panel-heading">
+				    <h3 class="panel-title">Programation <span class="badge pull-right">42</span></h3>
+
+				  </div>
+				  <div class="panel-body">
+				    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde nulla, officiis veniam quam quibusdam perferendis aspernatur minima animi. Consequuntur minus nam, sit at qui temporibus vel et ipsam libero voluptate.
+				  </div>
+				  <div class="panel-footer"><a href="" class="btn btn-block btn-info"><i class="glyphicon glyphicon-share-alt">&nbsp;</i>Enter</a></div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-primary">
+				  <div class="panel-heading">
+				    <h3 class="panel-title">Programation <span class="badge pull-right">42</span></h3>
+
+				  </div>
+				  <div class="panel-body">
+				    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quos nisi illo ad repudiandae aliquam delectus, similique quod fugiat aliquid. Quos fugit dolore cum hic assumenda, placeat vero corrupti numquam.
+				  </div>
+				  <div class="panel-footer"><a href="" class="btn btn-block btn-info"><i class="glyphicon glyphicon-share-alt">&nbsp;</i>Enter</a></div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-4">
+				<ul class="pagination pagination-lg">
+					  <li><a href="#">1</a></li>
+					  <li><a href="#">2</a></li>
+					  <li><a href="#">3</a></li>
+					  <li><a href="#">4</a></li>
+					  <li><a href="#">5</a></li>
+				</ul>
+			</div>
+			<div class="col-md-4"></div>
+		</div>
+    </div> <!-- /container -->
+	<script src="/socket.io/socket.io.js"></script>
+	<script>
+		var home =io();
+	</script>
+
+	<script type="text/javascript" src="http://localhost/Melazhari/projets/Chat/res/js/jquery.js"></script>
+	<script type="text/javascript" src="http://localhost/Melazhari/projets/Chat/res/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		//$('#myModal').modal('toggle');
+		$('.rooms').css({'margin-top':'100%','opacity':'0'})
+		$('.rooms').animate({'margin-top': '0px'},500).animate({'opacity': 1},100);
+	</script>
+
+
+  </body>
+</html>
